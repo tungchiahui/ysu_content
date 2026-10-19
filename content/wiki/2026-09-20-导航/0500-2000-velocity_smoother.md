@@ -1,5 +1,7 @@
 ---
 title: "velocity_smoother（速度限幅与加减速平滑）"
+authors:
+  - 董佳辉
 ---
 
 ## velocity_smoother（速度限幅与加减速平滑）

@@ -1,5 +1,7 @@
 ---
 title: "安装Docker"
+authors:
+  - 董佳辉
 ---
 
 ### Linux安装Docker Engine(推荐)

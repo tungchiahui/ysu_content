@@ -1,5 +1,7 @@
 ---
 title: "behavior_server（恢复行为与空闲方向移动）"
+authors:
+  - 董佳辉
 ---
 
 ## behavior_server（恢复行为与空闲方向移动）

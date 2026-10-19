@@ -1,5 +1,7 @@
 ---
 title: "src与lib模块CMake详解"
+authors:
+  - 董佳辉
 ---
 
 本节讲三个层次：

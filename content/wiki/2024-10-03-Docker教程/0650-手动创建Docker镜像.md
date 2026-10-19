@@ -1,5 +1,7 @@
 ---
 title: "手动创建Docker镜像"
+authors:
+  - 董佳辉
 ---
 
 Docker 镜像是通过 `Dockerfile` 文件来构建的。该文件没有任何扩展名，文件名固定为 `Dockerfile`。

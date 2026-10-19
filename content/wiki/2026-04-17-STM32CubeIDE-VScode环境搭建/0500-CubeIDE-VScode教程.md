@@ -1,5 +1,7 @@
 ---
 title: "插件使用教程"
+authors:
+  - 董佳辉
 ---
 
 ### CubeMX安装FW

@@ -1,5 +1,7 @@
 ---
 title: "初识OpenCV"
+authors:
+  - 董佳辉
 ---
 
 ### 简介

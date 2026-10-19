@@ -1,5 +1,7 @@
 ---
 title: "ROS2_Control"
+authors:
+  - 董佳辉
 ---
 
 ### ROS2 Control 概述

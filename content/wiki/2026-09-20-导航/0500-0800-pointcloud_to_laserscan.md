@@ -1,5 +1,7 @@
 ---
 title: "pointcloud_to_laserscan（三维地形点云转二维扫描）"
+authors:
+  - 董佳辉
 ---
 
 ## pointcloud_to_laserscan（三维地形点云转二维扫描）

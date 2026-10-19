@@ -1,5 +1,7 @@
 ---
 title: "jthread 与 stop_token"
+authors:
+  - 董佳辉
 ---
 
 C++20 提供了：

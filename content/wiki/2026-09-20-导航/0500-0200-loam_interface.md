@@ -1,5 +1,7 @@
 ---
 title: "loam_interface（Point-LIO输出的坐标与话题适配）"
+authors:
+  - 董佳辉
 ---
 
 ## loam_interface（Point-LIO输出的坐标与话题适配）

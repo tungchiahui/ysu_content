@@ -1,5 +1,7 @@
 ---
 title: "Gezebo Classic"
+authors:
+  - 董佳辉
 ---
 
 ### Gazebo([Gazebo Classic](https://classic.gazebosim.org/))

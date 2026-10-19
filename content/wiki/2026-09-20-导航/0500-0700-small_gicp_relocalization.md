@@ -1,5 +1,7 @@
 ---
 title: "small_gicp_relocalization（先验点云地图重定位）"
+authors:
+  - 董佳辉
 ---
 
 ## small_gicp_relocalization（先验点云地图重定位）

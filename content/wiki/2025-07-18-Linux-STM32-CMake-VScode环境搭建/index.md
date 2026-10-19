@@ -1,5 +1,7 @@
 ---
 title: "Linux-STM32-CMake-VScode环境搭建（已经废弃）"
+authors:
+  - 董佳辉
 ---
 
 **`本教程已经过时，请看下方的新教程`**<br>

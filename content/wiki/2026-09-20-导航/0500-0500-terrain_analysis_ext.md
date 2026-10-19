@@ -1,5 +1,7 @@
 ---
 title: "terrain_analysis_ext（扩展远场地形与近远场结果合并）"
+authors:
+  - 董佳辉
 ---
 
 ## terrain_analysis_ext（扩展远场地形与近远场结果合并）

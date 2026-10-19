@@ -1,5 +1,7 @@
 ---
 title: "Linux硬件通信"
+authors:
+  - 董佳辉
 ---
 
 ## Linux 机器人通信基础教程介绍

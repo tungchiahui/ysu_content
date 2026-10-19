@@ -1,5 +1,7 @@
 ---
 title: "pb_teleop_twist_joy_node（手柄输入与可替换控制入口）"
+authors:
+  - 董佳辉
 ---
 
 ## pb_teleop_twist_joy_node（手柄输入与可替换控制入口）

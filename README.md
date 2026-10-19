@@ -28,7 +28,7 @@ Wiki 现按用户指定的本地 `tungchiahui_content/content/wiki/` 工作目�
 
 - 新成员与指导老师：参考 `member-submission-kit/` 和 `docs/成员资料规范.md`，添加 Markdown 与对应头像；学生只使用机械组、电控组、硬件组、算法组，无梯队字段。
 - 新新闻：在 `content/news/` 添加 Markdown，图片放在 `public/images/news/`。
-- Wiki：保留现有文件名编号规则，章节使用四位数字开头；更改路径时同步维护站内链接。
+- Wiki：frontmatter 使用 `title` 和 `authors`，详见 `docs/Wiki资料规范.md`。保留现有文件名编号规则，章节使用四位数字开头；更改路径时同步维护站内链接。
 - 配图：写 `/images/文件名`，网站会在构建时同步 `public/` 中的资源。
 - 联系方式、招新链接与首页介绍：编辑 `data/site.json`，无需修改页面代码。
 - 首页背景视频与封面：编辑 `data/site.json` 的 `heroMedia`，分别设置 `video`、`poster`、`sourceLabel` 与 `sourceUrl`。媒体文件放在 `public/images/`。

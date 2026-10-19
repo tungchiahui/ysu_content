@@ -1,5 +1,7 @@
 ---
 title: "local_costmap（局部障碍代价地图）"
+authors:
+  - 董佳辉
 ---
 
 ## local_costmap（局部障碍代价地图）

@@ -1,5 +1,7 @@
 ---
 title: "Nuxt Studio教程"
+authors:
+  - 董佳辉
 ---
 
 ## 简介

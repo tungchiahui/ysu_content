@@ -1,5 +1,7 @@
 ---
 title: "Docker命令学习"
+authors:
+  - 董佳辉
 ---
 
 ### 参考文档

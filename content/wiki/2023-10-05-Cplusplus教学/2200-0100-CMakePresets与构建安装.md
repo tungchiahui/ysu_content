@@ -1,5 +1,7 @@
 ---
 title: "CMakePresets与构建安装"
+authors:
+  - 董佳辉
 ---
 
 `CMakePresets.json` 用来保存常用的 CMake 配置。它解决的问题是：不要每次都手写一长串 `cmake -S ... -B ... -G ... -D...` 命令。

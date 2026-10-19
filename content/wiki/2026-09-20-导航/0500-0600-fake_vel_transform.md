@@ -1,5 +1,7 @@
 ---
 title: "fake_vel_transform（云台系速度转换与底盘自旋）"
+authors:
+  - 董佳辉
 ---
 
 ## fake_vel_transform（云台系速度转换与底盘自旋）

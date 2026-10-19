@@ -1,5 +1,7 @@
 ---
 title: "OpenCV"
+authors:
+  - 董佳辉
 ---
 
 ### OpenCV

@@ -1,5 +1,7 @@
 ---
 title: "planner_server（Theta*全局路径规划）"
+authors:
+  - 董佳辉
 ---
 
 ## planner_server（Theta*全局路径规划）

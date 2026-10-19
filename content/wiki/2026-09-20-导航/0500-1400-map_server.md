@@ -1,5 +1,7 @@
 ---
 title: "map_server（已有二维地图加载与发布）"
+authors:
+  - 董佳辉
 ---
 
 ## map_server（已有二维地图加载与发布）

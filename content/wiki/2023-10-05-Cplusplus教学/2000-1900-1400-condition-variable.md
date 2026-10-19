@@ -1,5 +1,7 @@
 ---
 title: "condition_variable"
+authors:
+  - 董佳辉
 ---
 
 `std::condition_variable` 用来解决这样一类问题：

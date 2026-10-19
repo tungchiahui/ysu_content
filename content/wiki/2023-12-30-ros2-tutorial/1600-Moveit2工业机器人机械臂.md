@@ -1,5 +1,7 @@
 ---
 title: "Moveit2工业机器人机械臂"
+authors:
+  - 董佳辉
 ---
 
 https://moveit.ros.org/

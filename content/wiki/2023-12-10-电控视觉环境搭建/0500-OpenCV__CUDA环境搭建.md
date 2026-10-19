@@ -1,5 +1,7 @@
 ---
 title: "OpenCV_CUDA环境搭建"
+authors:
+  - 董佳辉
 ---
 
 ### Linux

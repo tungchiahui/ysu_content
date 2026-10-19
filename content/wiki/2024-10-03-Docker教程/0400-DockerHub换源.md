@@ -1,5 +1,7 @@
 ---
 title: "DockerHub换源"
+authors:
+  - 董佳辉
 ---
 
 ## 总览

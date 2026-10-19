@@ -1,5 +1,7 @@
 ---
 title: "sensor_scan_generation（雷达点云换系与底盘、云台位姿转换）"
+authors:
+  - 董佳辉
 ---
 
 ## sensor_scan_generation（雷达点云换系与底盘、云台位姿转换）

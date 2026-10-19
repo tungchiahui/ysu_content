@@ -1,5 +1,7 @@
 ---
 title: "Gezebo仿真平台"
+authors:
+  - 董佳辉
 ---
 
 ### 简述

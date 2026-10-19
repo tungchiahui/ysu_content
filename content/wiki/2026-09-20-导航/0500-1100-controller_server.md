@@ -1,5 +1,7 @@
 ---
 title: "controller_server（路径跟踪、进度检查与到达判定）"
+authors:
+  - 董佳辉
 ---
 
 ## controller_server（路径跟踪、进度检查与到达判定）

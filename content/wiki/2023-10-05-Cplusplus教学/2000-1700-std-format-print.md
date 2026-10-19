@@ -1,5 +1,7 @@
 ---
 title: "std::format / std::print"
+authors:
+  - 董佳辉
 ---
 
 ## 本节解决什么问题

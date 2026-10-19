@@ -1,5 +1,7 @@
 ---
 title: "将Ign Gazebo迁移至Gz Sim"
+authors:
+  - 董佳辉
 ---
 
 ### 将Ign Gazebo迁移至Gz Sim

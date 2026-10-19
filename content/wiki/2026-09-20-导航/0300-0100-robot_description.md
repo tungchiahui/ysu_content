@@ -1,5 +1,7 @@
 ---
 title: "robot_description（机器人模型与关节定义）"
+authors:
+  - 董佳辉
 ---
 
 ## robot_description（机器人模型与关节定义）

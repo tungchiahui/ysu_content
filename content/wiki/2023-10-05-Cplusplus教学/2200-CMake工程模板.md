@@ -1,5 +1,7 @@
 ---
 title: "CMake工程模板"
+authors:
+  - 董佳辉
 ---
 
 本章用一个 Linux-only 的 CMake 工程模板来讲解 C++ 项目如何组织、构建、安装和引入第三方库。

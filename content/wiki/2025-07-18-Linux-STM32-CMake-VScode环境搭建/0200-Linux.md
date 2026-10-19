@@ -1,5 +1,7 @@
 ---
 title: "Linux"
+authors:
+  - 董佳辉
 ---
 
 ### 环境介绍

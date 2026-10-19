@@ -1,5 +1,7 @@
 ---
 title: "bt_navigator（行为树导航任务调度）"
+authors:
+  - 董佳辉
 ---
 
 ## bt_navigator（行为树导航任务调度）

@@ -1,5 +1,7 @@
 ---
 title: "slam_toolbox（二维地图生成与轨迹优化）"
+authors:
+  - 董佳辉
 ---
 
 ## slam_toolbox（二维地图生成与轨迹优化）

@@ -1,5 +1,7 @@
 ---
 title: "semaphore、latch 与 barrier"
+authors:
+  - 董佳辉
 ---
 
 C++20 在：

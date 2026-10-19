@@ -1,5 +1,7 @@
 ---
 title: "smoother_server（全局路径平滑）"
+authors:
+  - 董佳辉
 ---
 
 ## smoother_server（全局路径平滑）

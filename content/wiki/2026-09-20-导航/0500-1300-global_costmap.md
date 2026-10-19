@@ -1,5 +1,7 @@
 ---
 title: "global_costmap（全局规划代价地图）"
+authors:
+  - 董佳辉
 ---
 
 ## global_costmap（全局规划代价地图）

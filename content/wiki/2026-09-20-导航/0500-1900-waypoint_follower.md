@@ -1,5 +1,7 @@
 ---
 title: "waypoint_follower（逐点导航与到点等待）"
+authors:
+  - 董佳辉
 ---
 
 ## waypoint_follower（逐点导航与到点等待）

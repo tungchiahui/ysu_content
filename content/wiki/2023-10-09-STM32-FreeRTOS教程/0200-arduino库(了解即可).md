@@ -1,5 +1,7 @@
 ---
 title: "arduino库(了解即可)"
+authors:
+  - 董佳辉
 ---
 
 ### arduino库（Qualcomm Arduino、esp32）

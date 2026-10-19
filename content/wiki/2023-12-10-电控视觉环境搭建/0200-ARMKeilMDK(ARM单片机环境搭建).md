@@ -1,5 +1,7 @@
 ---
 title: "ARM Keil MDK(ARM单片机环境搭建)"
+authors:
+  - 董佳辉
 ---
 
 ### 介绍以及环境推荐

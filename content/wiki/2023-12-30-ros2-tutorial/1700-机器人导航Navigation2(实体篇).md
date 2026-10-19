@@ -1,5 +1,7 @@
 ---
 title: "机器人导航Navigation2(实体篇)"
+authors:
+  - 董佳辉
 ---
 
 ### 准备工作

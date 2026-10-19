@@ -1,5 +1,7 @@
 ---
 title: "Gz Sim（Gazebo Harmonic）"
+authors:
+  - 董佳辉
 ---
 
 ### Gz Sim（Gazebo Harmonic 及之后的版本（ROS2 Jazzy及之后的版本））

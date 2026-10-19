@@ -1,5 +1,7 @@
 ---
 title: "VScode远程开发"
+authors:
+  - 董佳辉
 ---
 
 如何SSH那样在VScode中远程开发容器里的系统呢?

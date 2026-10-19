@@ -1,5 +1,7 @@
 ---
 title: "future、async、promise 与 packaged_task"
+authors:
+  - 董佳辉
 ---
 
 `std::thread` 很适合表达：

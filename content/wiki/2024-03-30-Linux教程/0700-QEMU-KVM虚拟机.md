@@ -1,5 +1,7 @@
 ---
 title: "QEMU-KVM虚拟机"
+authors:
+  - 董佳辉
 ---
 
 QEMU-KVM是一个高性能的虚拟机,以下是以安装RockyLinux9为例.

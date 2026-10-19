@@ -1,5 +1,7 @@
 ---
 title: "Humble与Jazzy导航的差异"
+authors:
+  - 董佳辉
 ---
 
 ## 参考的官方 Jazzy 示例
