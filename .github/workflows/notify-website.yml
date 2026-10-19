@@ -1,0 +1,29 @@
+name: Notify website
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - README.md
+      - sources.md
+      - .github/**
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.WEBSITE_DISPATCH_TOKEN }}
+      WEBSITE_REPOSITORY: ${{ vars.WEBSITE_REPOSITORY || 'tungchiahui/ysu_web' }}
+      WEBSITE_REF: ${{ vars.WEBSITE_REF || 'main' }}
+      CONTENT_SHA: ${{ github.sha }}
+    steps:
+      - name: Trigger website build
+        if: env.GH_TOKEN != ''
+        run: gh workflow run build.yml --repo "$WEBSITE_REPOSITORY" --ref "$WEBSITE_REF" --field "content_ref=$CONTENT_SHA"
+      - name: Explain optional setup
+        if: env.GH_TOKEN == ''
+        run: echo 'Set WEBSITE_DISPATCH_TOKEN after the website migration is merged to enable automatic builds.' >> "$GITHUB_STEP_SUMMARY"
