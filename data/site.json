@@ -10,7 +10,6 @@
   "description": "燕山大学机器人创新团队（燕鹰战队）依托机械工程学院，围绕全国大学生机器人大赛 RoboMaster 等赛事开展机器人设计、制作与调试，在机械、电控、硬件、算法及运营协作中培养创新意识与工程实践能力。",
   "logo": "/images/ysu-avatar.jpg",
   "logoAlt": "燕山大学机器人创新团队 YSU 标志（微博头像）",
-  "weibo": "https://weibo.com/u/5743556072",
   "templateMode": true,
   "introSources": [
     {
@@ -26,16 +25,16 @@
     "wechat": "sdut_vincirobot",
     "socials": [
       {
-        "label": "GitHub",
-        "href": "https://github.com/SDUTVINCI"
+        "label": "GitCode",
+        "href": "https://gitcode.com/ysu_RM"
       },
       {
         "label": "Bilibili",
-        "href": "https://space.bilibili.com/471524675"
+        "href": "https://space.bilibili.com/3632304452798465"
       },
       {
         "label": "微信公众号",
-        "href": "https://mp.weixin.qq.com/s/AAPWX2zOhJjA-s2MA-g2Ew"
+        "href": "https://mp.weixin.qq.com/s/Ode-aXwXHh70E-6WhKW_Ig"
       }
     ]
   },
