@@ -29,6 +29,7 @@ sources.md             燕鹰简介和临时队标的来源
 - Wiki：保留现有文件名编号规则，章节使用四位数字开头；更改路径时同步维护站内链接。
 - 配图：写 `/images/文件名`，网站会在构建时同步 `public/` 中的资源。
 - 联系方式、招新链接与首页介绍：编辑 `data/site.json`，无需修改页面代码。
+- 首页背景视频与封面：编辑 `data/site.json` 的 `heroMedia`，分别设置 `video`、`poster`、`sourceLabel` 与 `sourceUrl`。媒体文件放在 `public/images/`。
 - 成绩：编辑 `data/achievements.json`；首页轮播：编辑 `data/home-promos.json`。
 
 本地预览时，把网站仓库 `.env` 中的 `CONTENT_LOCAL_PATH` 指向本仓库，然后在网站目录运行 `npm run dev`。内容修改后执行 `npm run content:sync`。

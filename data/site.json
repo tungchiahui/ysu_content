@@ -154,5 +154,11 @@
       "label": "鲁公网安备37030302001123号",
       "href": "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=37030302001123"
     }
-  ]
+  ],
+  "heroMedia": {
+    "video": "/images/robomaster-home.mp4",
+    "poster": "/images/robomaster-home.jpg",
+    "sourceLabel": "视频来源：RoboMaster 官方",
+    "sourceUrl": "https://www.robomaster.com/zh-CN"
+  }
 }
