@@ -18,11 +18,11 @@ sources.md             简介、队标与视频的来源
 
 ## 当前保留的模板
 
-初始迁移时，原 SDUT Vinci 网站的成员、Wiki、新闻等 260 份 Markdown 原文全部保留。新闻与成绩继续作为模板；招新群、报名表及邮箱、微信、地址已按燕鹰战队资料更新。成员档案现仅保留董佳辉及原站三位指导老师，使用新的按赛季任职格式，详见 `docs/成员资料规范.md`。首页轮播及栏目配图已按燕鹰主题更新，照片来自用户指定的 TTT 文件夹。
+初始迁移时，原 SDUT Vinci 网站的成员、Wiki、新闻等 260 份 Markdown 原文全部保留。新闻继续作为模板，成果页改为有官方来源的 RoboMaster 历年获奖记录；招新群、报名表及邮箱、微信、地址已按燕鹰战队资料更新。成员档案现仅保留董佳辉及原站三位指导老师，使用新的按赛季任职格式，详见 `docs/成员资料规范.md`。首页轮播及栏目配图已按燕鹰主题更新，照片来自用户指定的 TTT 文件夹。
 
 Wiki 最初按用户指定的本地 `tungchiahui_content/content/wiki/` 工作目录整体更新为 292 篇。此后按要求删除 OpenCV、Flutter、Nuxt.js、OpenWrt、ROS1 五套独立教程及其首页、章节，当前保留 271 篇。旧目录独有的文档已删除，不保留归档；未改动最初的来源仓库。
 
-`data/site.json` 的 `templateMode` 控制成果与新闻页面的模板标识。网站已移除顶部资料迁移提示和首页来源链接；引用来源继续记录于 `sources.md`。
+`data/site.json` 的 `templateMode` 控制新闻页面的模板标识，成果页独立展示已核实记录。网站已移除顶部资料迁移提示和首页来源链接；引用来源继续记录于 `sources.md`。
 
 ## 维护方式
 
@@ -33,7 +33,9 @@ Wiki 最初按用户指定的本地 `tungchiahui_content/content/wiki/` 工作�
 - 配图：写 `/images/文件名`，网站会在构建时同步 `public/` 中的资源。
 - 联系方式、招新链接与首页介绍：编辑 `data/site.json`，无需修改页面代码。
 - 首页背景视频与封面：编辑 `data/site.json` 的 `heroMedia`，分别设置 `video`、`poster`、`sourceLabel` 与 `sourceUrl`。媒体文件放在 `public/images/`。
-- 成绩：编辑 `data/achievements.json`；首页轮播：编辑 `data/home-promos.json`。
+- RoboMaster 成绩：编辑 `data/achievements.json`，在 `records` 中按年份维护奖项，每项包含 `title` 和官方出处 `source.title`、`source.url`；未核实的年份不填。文件同时保存首次参赛年份、官方公告入口及核实日期。首页轮播：编辑 `data/home-promos.json`。
+
+成果的收录口径、暂缺年份和逐年公告链接见 [RoboMaster 成果来源](docs/RoboMaster成果来源.md)。
 
 本地预览时，把网站仓库 `.env` 中的 `CONTENT_LOCAL_PATH` 指向本仓库，然后在网站目录运行 `npm run dev`。内容修改后执行 `npm run content:sync`。
 

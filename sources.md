@@ -1,7 +1,7 @@
 # 简介与队标来源
 
 - 用户确认名称：燕山大学机器人创新团队燕鹰战队，归属机械工程学院。
-- 简介根据[燕山大学第五届 RoboMaster 校内选拔赛通知](https://notice.ysu.edu.cn/info/2264/23979.htm)归纳，涵盖赛事、机械、电控、算法、硬件与运营方向。没有推断建队年份、人数或燕鹰获奖记录。
+- 简介根据[燕山大学第五届 RoboMaster 校内选拔赛通知](https://notice.ysu.edu.cn/info/2264/23979.htm)归纳，涵盖赛事、机械、电控、算法、硬件与运营方向。简介没有推断建队年份、人数或燕鹰获奖记录；后续核实的成果见下述专节。
 - 临时队标：用户指定的[战队微博](https://weibo.com/u/5743556072)头像，获取日期 2026-10-19，原图 180×180，保存为 `public/images/ysu-avatar.jpg`，未重绘。
 - 初始迁移保留原站成员、Wiki、新闻、成绩、宣传轮播、机器人照片及招新联系方式作为模板。Wiki 后续按下述来源整体更新。
 
@@ -33,3 +33,8 @@
 | `public/images/team/arena-testing.jpg` | `88A66D6A9A7B0601EA723507F2B99312.jpg` |
 | `public/images/team/team-moment.jpg` | `D662CBA7A4570845BB9AE2B4812EA627.jpg` |
 | `public/images/team/robot-pit.jpg` | `DFAD09C94FAA47CF965A4A33EF20DB99.jpg` |
+
+## RoboMaster 历年成果
+
+- 2026-10-19 根据 RoboMaster 官方公告与官方论坛核实获奖名单，替换原站 Robocon 成绩模板；首次参赛年份以燕山大学官方报道为依据。
+- 成果数据：`data/achievements.json`。每项均保留官方来源链接；完整收录口径、暂缺年份和逐年依据见 [RoboMaster 成果来源](docs/RoboMaster成果来源.md)。

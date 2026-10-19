@@ -1,82 +1,422 @@
-[
-  {
-    "year": 2026,
-    "items": [
-      "全国大学生机器人大赛 Robocon 排球赛国赛一等奖"
-    ]
+{
+  "competition": "RoboMaster",
+  "firstSeason": 2015,
+  "firstSeasonSource": {
+    "title": "燕山大学在第十八届全国大学生机器人大赛RoboMaster机甲大师赛中取得佳绩",
+    "url": "https://www.ysu.edu.cn/info/5415/13631.htm"
   },
-  {
-    "year": 2025,
-    "items": [
-      "全国大学生机器人大赛 Robocon 正赛国赛三等奖",
-      "全国大学生机器人大赛 Robocon 技能赛国赛二等奖",
-      "全国大学生机器人大赛 Robocon 马术赛国赛二等奖",
-      "全国大学生机器人大赛 Robocon 排球赛国赛二等奖"
-    ]
-  },
-  {
-    "year": 2024,
-    "items": [
-      "全国大学生机器人大赛 Robocon 正赛国赛三等奖",
-      "全国大学生机器人大赛 Robocon 技能赛国赛二等奖",
-      "全国大学生机器人大赛 Robocon 马术赛国赛三等奖"
-    ]
-  },
-  {
-    "year": 2023,
-    "items": [
-      "全国大学生机器人大赛 Robocon 正赛国赛三等奖",
-      "全国大学生机器人大赛 Robocon 马术赛国赛三等奖"
-    ]
-  },
-  {
-    "year": 2022,
-    "items": [
-      "全国大学生机器人大赛 Robocon 省赛一等奖",
-      "全国大学生机器人大赛 Robocon 国赛二等奖"
-    ]
-  },
-  {
-    "year": 2021,
-    "items": [
-      "全国大学生机器人大赛 Robocon 省赛一等奖",
-      "全国大学生机器人大赛 Robocon 国赛二等奖"
-    ]
-  },
-  {
-    "year": 2020,
-    "items": [
-      "全国大学生机器人大赛 Robocon 省赛一等奖",
-      "全国大学生机器人大赛 Robocon 国赛二等奖"
-    ]
-  },
-  {
-    "year": 2019,
-    "items": [
-      "全国大学生机器人大赛 Robocon 省赛一等奖",
-      "全国大学生机器人大赛 Robocon 国赛二等奖"
-    ]
-  },
-  {
-    "year": 2018,
-    "items": [
-      "全国大学生机器人大赛 Robocon 省赛一等奖",
-      "全国大学生机器人大赛 Robocon 国赛一等奖",
-      "荣获“感动校园”荣誉称号"
-    ]
-  },
-  {
-    "year": 2017,
-    "items": [
-      "全国大学生机器人大赛 Robocon 国赛三等奖",
-      "全国大学生机器人大赛 RoboMaster 国赛三等奖"
-    ]
-  },
-  {
-    "year": 2016,
-    "items": [
-      "全国大学生机器人大赛 Robocon 省赛一等奖",
-      "全国大学生机器人大赛 Robocon 国赛二等奖"
-    ]
-  }
-]
+  "officialIndex": "https://www.robomaster.com/zh-CN/resource/announcement/competition",
+  "checkedOn": "2026-10-19",
+  "coverageNote": "仅收录已核实的获奖记录；未核实的年份及奖项暂不列入。各记录的赛事阶段、赛项与奖项名称以对应官方公告为准。",
+  "records": [
+    {
+      "year": 2026,
+      "items": [
+        {
+          "title": "高校联盟赛山东站 · 3V3对抗赛二等奖",
+          "source": {
+            "title": "RoboMaster 2026机甲大师高校联盟赛获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1913"
+          }
+        },
+        {
+          "title": "高校联盟赛机器人竞技奖 · 3V3对抗赛 · 步兵机器人二等奖",
+          "source": {
+            "title": "RoboMaster 2026机甲大师高校联盟赛机器人竞技奖获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1916"
+          }
+        },
+        {
+          "title": "高校联盟赛机器人竞技奖 · 3V3对抗赛 · 英雄机器人三等奖",
+          "source": {
+            "title": "RoboMaster 2026机甲大师高校联盟赛机器人竞技奖获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1916"
+          }
+        },
+        {
+          "title": "高校联盟赛机器人竞技奖 · 3V3对抗赛 · 哨兵机器人三等奖",
+          "source": {
+            "title": "RoboMaster 2026机甲大师高校联盟赛机器人竞技奖获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1916"
+          }
+        }
+      ]
+    },
+    {
+      "year": 2025,
+      "items": [
+        {
+          "title": "高校联盟赛山东站 · 3V3对抗赛二等奖",
+          "source": {
+            "title": "RoboMaster 2025机甲大师高校联盟赛获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1830"
+          }
+        },
+        {
+          "title": "超级对抗赛区域赛（东部赛区）二等奖",
+          "source": {
+            "title": "RoboMaster 2025机甲大师超级对抗赛区域赛获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1847"
+          }
+        },
+        {
+          "title": "超级对抗赛全国赛三等奖",
+          "source": {
+            "title": "RoboMaster 2025机甲大师超级对抗赛全国赛获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1856"
+          }
+        },
+        {
+          "title": "超级对抗赛机器人竞技奖 · 步兵机器人三等奖",
+          "source": {
+            "title": "RoboMaster 2025机甲大师超级对抗赛机器人竞技奖获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1853"
+          }
+        },
+        {
+          "title": "超级对抗赛机器人竞技奖 · 英雄机器人三等奖",
+          "source": {
+            "title": "RoboMaster 2025机甲大师超级对抗赛机器人竞技奖获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1853"
+          }
+        },
+        {
+          "title": "超级对抗赛机器人竞技奖 · 工程机器人三等奖",
+          "source": {
+            "title": "RoboMaster 2025机甲大师超级对抗赛机器人竞技奖获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1853"
+          }
+        },
+        {
+          "title": "超级对抗赛机器人竞技奖 · 哨兵机器人三等奖",
+          "source": {
+            "title": "RoboMaster 2025机甲大师超级对抗赛机器人竞技奖获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1853"
+          }
+        },
+        {
+          "title": "超级对抗赛机器人竞技奖 · 空中机器人三等奖",
+          "source": {
+            "title": "RoboMaster 2025机甲大师超级对抗赛机器人竞技奖获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1853"
+          }
+        },
+        {
+          "title": "超级对抗赛机器人竞技奖 · 飞镖系统三等奖",
+          "source": {
+            "title": "RoboMaster 2025机甲大师超级对抗赛机器人竞技奖获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1853"
+          }
+        },
+        {
+          "title": "超级对抗赛机器人竞技奖 · 雷达优秀奖",
+          "source": {
+            "title": "RoboMaster 2025机甲大师超级对抗赛机器人竞技奖获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1853"
+          }
+        },
+        {
+          "title": "高校联盟赛机器人竞技奖 · 3V3对抗赛 · 步兵机器人三等奖",
+          "source": {
+            "title": "RoboMaster 2025机甲大师高校联盟赛机器人竞技奖获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1842"
+          }
+        },
+        {
+          "title": "高校联盟赛机器人竞技奖 · 3V3对抗赛 · 英雄机器人三等奖",
+          "source": {
+            "title": "RoboMaster 2025机甲大师高校联盟赛机器人竞技奖获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1842"
+          }
+        },
+        {
+          "title": "高校联盟赛机器人竞技奖 · 3V3对抗赛 · 哨兵机器人三等奖",
+          "source": {
+            "title": "RoboMaster 2025机甲大师高校联盟赛机器人竞技奖获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1842"
+          }
+        }
+      ]
+    },
+    {
+      "year": 2024,
+      "items": [
+        {
+          "title": "高校联盟赛山西站 · 3V3对抗赛三等奖",
+          "source": {
+            "title": "RoboMaster 2024机甲大师高校联盟赛获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1711"
+          }
+        },
+        {
+          "title": "高校联盟赛山西站 · 步兵对抗赛二等奖",
+          "source": {
+            "title": "RoboMaster 2024机甲大师高校联盟赛获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1711"
+          }
+        },
+        {
+          "title": "超级对抗赛区域赛（中部赛区）二等奖",
+          "source": {
+            "title": "RoboMaster 2024机甲大师超级对抗赛区域赛获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1736"
+          }
+        },
+        {
+          "title": "超级对抗赛全国赛三等奖",
+          "source": {
+            "title": "RoboMaster 2024机甲大师超级对抗赛全国赛获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1759"
+          }
+        },
+        {
+          "title": "超级对抗赛机器人竞技奖 · 步兵机器人三等奖",
+          "source": {
+            "title": "RoboMaster 2024机甲大师超级对抗赛机器人竞技奖获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1761"
+          }
+        },
+        {
+          "title": "超级对抗赛机器人竞技奖 · 英雄机器人三等奖",
+          "source": {
+            "title": "RoboMaster 2024机甲大师超级对抗赛机器人竞技奖获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1761"
+          }
+        },
+        {
+          "title": "超级对抗赛机器人竞技奖 · 工程机器人三等奖",
+          "source": {
+            "title": "RoboMaster 2024机甲大师超级对抗赛机器人竞技奖获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1761"
+          }
+        },
+        {
+          "title": "超级对抗赛机器人竞技奖 · 哨兵机器人三等奖",
+          "source": {
+            "title": "RoboMaster 2024机甲大师超级对抗赛机器人竞技奖获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1761"
+          }
+        },
+        {
+          "title": "超级对抗赛机器人竞技奖 · 飞镖系统三等奖",
+          "source": {
+            "title": "RoboMaster 2024机甲大师超级对抗赛机器人竞技奖获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1761"
+          }
+        },
+        {
+          "title": "超级对抗赛机器人竞技奖 · 雷达一等奖",
+          "source": {
+            "title": "RoboMaster 2024机甲大师超级对抗赛机器人竞技奖获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1761"
+          }
+        },
+        {
+          "title": "超级对抗赛机器人竞技奖 · 空中机器人三等奖",
+          "source": {
+            "title": "RoboMaster 2024机甲大师超级对抗赛机器人竞技奖获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1761"
+          }
+        },
+        {
+          "title": "高校联盟赛机器人竞技奖 · 3V3对抗赛 · 步兵机器人二等奖",
+          "source": {
+            "title": "RoboMaster 2024机甲大师高校联盟赛机器人竞技奖获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1716"
+          }
+        },
+        {
+          "title": "高校联盟赛机器人竞技奖 · 3V3对抗赛 · 英雄机器人三等奖",
+          "source": {
+            "title": "RoboMaster 2024机甲大师高校联盟赛机器人竞技奖获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1716"
+          }
+        },
+        {
+          "title": "高校联盟赛机器人竞技奖 · 3V3对抗赛 · 哨兵机器人二等奖",
+          "source": {
+            "title": "RoboMaster 2024机甲大师高校联盟赛机器人竞技奖获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1716"
+          }
+        },
+        {
+          "title": "高校联盟赛机器人竞技奖 · 步兵对抗赛三等奖",
+          "source": {
+            "title": "RoboMaster 2024机甲大师高校联盟赛机器人竞技奖获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1716"
+          }
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "items": [
+        {
+          "title": "超级对抗赛全国赛三等奖",
+          "source": {
+            "title": "RoboMaster 2023超级对抗赛全国赛获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1646"
+          }
+        },
+        {
+          "title": "高校联盟赛辽宁站 · 3V3对抗赛三等奖",
+          "source": {
+            "title": "RoboMaster 2023机甲大师高校联盟赛获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1596"
+          }
+        },
+        {
+          "title": "高校联盟赛辽宁站 · 步兵对抗赛三等奖",
+          "source": {
+            "title": "RoboMaster 2023机甲大师高校联盟赛获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1596"
+          }
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "items": [
+        {
+          "title": "高校系列赛综合类奖项 · 战队伯乐奖",
+          "source": {
+            "title": "RoboMaster 2022机甲大师高校系列赛综合类奖项获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1494"
+          }
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "items": [
+        {
+          "title": "对抗赛及单项赛线上评审 · 对抗赛二等奖",
+          "source": {
+            "title": "RoboMaster 2020对抗赛&单项赛线上评审获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1183"
+          }
+        },
+        {
+          "title": "对抗赛及单项赛线上评审 · 步兵机器人二等奖",
+          "source": {
+            "title": "RoboMaster 2020对抗赛&单项赛线上评审获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1183"
+          }
+        },
+        {
+          "title": "对抗赛及单项赛线上评审 · 英雄机器人二等奖",
+          "source": {
+            "title": "RoboMaster 2020对抗赛&单项赛线上评审获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1183"
+          }
+        },
+        {
+          "title": "对抗赛及单项赛线上评审 · 工程机器人三等奖",
+          "source": {
+            "title": "RoboMaster 2020对抗赛&单项赛线上评审获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1183"
+          }
+        },
+        {
+          "title": "对抗赛及单项赛线上评审 · 哨兵机器人二等奖",
+          "source": {
+            "title": "RoboMaster 2020对抗赛&单项赛线上评审获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1183"
+          }
+        },
+        {
+          "title": "对抗赛及单项赛线上评审 · 雷达二等奖",
+          "source": {
+            "title": "RoboMaster 2020对抗赛&单项赛线上评审获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1183"
+          }
+        },
+        {
+          "title": "对抗赛及单项赛线上评审 · 运营方向二等奖",
+          "source": {
+            "title": "RoboMaster 2020对抗赛&单项赛线上评审获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1183"
+          }
+        },
+        {
+          "title": "对抗赛及单项赛线上评审 · 机械组别二等奖",
+          "source": {
+            "title": "RoboMaster 2020对抗赛&单项赛线上评审获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1183"
+          }
+        },
+        {
+          "title": "对抗赛及单项赛线上评审 · 嵌入式组别二等奖",
+          "source": {
+            "title": "RoboMaster 2020对抗赛&单项赛线上评审获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1183"
+          }
+        },
+        {
+          "title": "对抗赛及单项赛线上评审 · 算法组别一等奖",
+          "source": {
+            "title": "RoboMaster 2020对抗赛&单项赛线上评审获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1183"
+          }
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "items": [
+        {
+          "title": "机甲大师赛团体对抗赛全国三等奖",
+          "source": {
+            "title": "RoboMaster 2019国际预选赛&总决赛获奖名单汇总",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1034"
+          }
+        },
+        {
+          "title": "工程机器人单项赛全国特等奖（全国冠军）",
+          "source": {
+            "title": "RoboMaster 2019国际预选赛&总决赛获奖名单汇总",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1034"
+          }
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "items": [
+        {
+          "title": "机甲大师赛北部分区一等奖",
+          "source": {
+            "title": "RoboMaster 2018机甲大师赛获奖名单",
+            "url": "https://www.robomaster.com/zh-CN/resource/pages/announcement/1002"
+          }
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "items": [
+        {
+          "title": "机甲大师赛分区赛三等奖（机甲猎手）",
+          "source": {
+            "title": "RM2017 机甲大师赛成绩册",
+            "url": "https://bbs.robomaster.com/article/3486?source=5"
+          }
+        }
+      ],
+      "note": "早期官方名单的参赛队名为“机甲猎手”，此处按原名展示。"
+    },
+    {
+      "year": 2016,
+      "items": [
+        {
+          "title": "机甲大师赛分区赛三等奖（机甲猎手）",
+          "source": {
+            "title": "RM2016 全国大学生机器人大赛获奖名单",
+            "url": "https://bbs.robomaster.com/article/2769"
+          }
+        }
+      ],
+      "note": "早期官方名单的参赛队名为“机甲猎手”，此处按原名展示。"
+    }
+  ]
+}
