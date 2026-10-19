@@ -4,9 +4,6 @@ authors:
   - 董佳辉
 ---
 
-### OpenCV
-[基础视觉算法-OpenCV实现](/wiki/2026-04-13-opencv-jiao-cheng)
-
 ### CV_Bridge
 cv_bridge维基百科介绍:
 
