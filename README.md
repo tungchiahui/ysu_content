@@ -18,7 +18,7 @@ sources.md             简介、队标与视频的来源
 
 ## 当前保留的模板
 
-初始迁移时，原 SDUT Vinci 网站的成员、Wiki、新闻等 260 份 Markdown 原文全部保留。成员、新闻、成绩和招新联系方式继续作为模板。首页轮播及栏目配图已按燕鹰主题更新，照片来自用户指定的 TTT 文件夹。
+初始迁移时，原 SDUT Vinci 网站的成员、Wiki、新闻等 260 份 Markdown 原文全部保留。新闻、成绩和招新联系方式继续作为模板。成员档案现仅保留董佳辉及原站三位指导老师，使用新的按赛季任职格式，详见 `docs/成员资料规范.md`。首页轮播及栏目配图已按燕鹰主题更新，照片来自用户指定的 TTT 文件夹。
 
 Wiki 现按用户指定的本地 `tungchiahui_content/content/wiki/` 工作目录整体更新为 292 篇。旧目录独有的文档已删除，Wiki 目录与指定来源完整一致，不做增量合并。来源工作目录中的未提交修改也按实际文件同步，未改动来源仓库。
 
@@ -26,7 +26,7 @@ Wiki 现按用户指定的本地 `tungchiahui_content/content/wiki/` 工作目�
 
 ## 维护方式
 
-- 新成员：参考 `member-submission-kit/`，添加 Markdown 与对应头像。
+- 新成员与指导老师：参考 `member-submission-kit/` 和 `docs/成员资料规范.md`，添加 Markdown 与对应头像；学生只使用机械组、电控组、硬件组、算法组，无梯队字段。
 - 新新闻：在 `content/news/` 添加 Markdown，图片放在 `public/images/news/`。
 - Wiki：保留现有文件名编号规则，章节使用四位数字开头；更改路径时同步维护站内链接。
 - 配图：写 `/images/文件名`，网站会在构建时同步 `public/` 中的资源。
