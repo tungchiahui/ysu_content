@@ -3,7 +3,7 @@
 - 用户确认名称：燕山大学机器人创新团队燕鹰战队，归属机械工程学院。
 - 简介根据[燕山大学第五届 RoboMaster 校内选拔赛通知](https://notice.ysu.edu.cn/info/2264/23979.htm)归纳，涵盖赛事、机械、电控、算法、硬件与运营方向。没有推断建队年份、人数或燕鹰获奖记录。
 - 临时队标：用户指定的[战队微博](https://weibo.com/u/5743556072)头像，获取日期 2026-10-19，原图 180×180，保存为 `public/images/ysu-avatar.jpg`，未重绘。
-- 除上述身份信息，现有成员、Wiki、新闻、成绩、宣传轮播、机器人照片及招新联系方式均保留原站模板，来源中的名称、作者和事实保持原样。
+- 初始迁移保留原站成员、Wiki、新闻、成绩、宣传轮播、机器人照片及招新联系方式作为模板。Wiki 后续按下述来源整体更新。
 
 ## RoboMaster 首页背景视频
 
@@ -11,5 +11,25 @@
 - 取自来源页唯一的首页 `<video>` 元素，使用公开直接提供的 MP4 与 poster，未截取或转码。
 - [视频原地址](https://vod.robomaster.com/7044fd3699ee71f180776723a78f0102/cd8b8d1d7ac548bbb164d9cae725676b-46fee4569b9077498bbcaeb99ff668ed-ld.mp4)；本地文件 `public/images/robomaster-home.mp4`，20.009 秒，1920×1080，H.264，25 fps。
 - [封面原地址](https://rm-static.djicdn.com/documents/156026/3a6abe59ed2521787813782561764809.jpg)；本地文件 `public/images/robomaster-home.jpg`。
-- 首页背景通过 `data/site.json` 的 `heroMedia` 配置，静音循环播放并提供官方来源链接。
+- 首页背景通过 `data/site.json` 的 `heroMedia` 配置，静音循环播放；官方来源保留在本文件中。
 - 原站 `backgroundvideo.mp4` 与 `background.jpg` 继续保留作为模板。
+
+## Wiki 更新来源
+
+- 2026-10-19 按用户指定的 `/home/tungchiahui/UserFolder/MySource/tungchiahui_content/content/wiki/` 当前工作文件同步，292 篇原文逐文件比对一致，包括来源工作目录中的未提交修改。
+- 按用户要求删除旧目录独有的文档，不保留旧文档归档。
+
+## 战队照片
+
+2026-10-19 从用户提供的 `/home/tungchiahui/Downloads/TTT/` 选择 8 张原图，用于首页栏目、轮播、各栏目横幅及招新/联系配图。原图直接复制，未裁剪、重绘或移除水印。原有新闻正文配图与成员头像保持对应资料的内容。
+
+| 网站文件 | 来源文件 |
+| --- | --- |
+| `public/images/team/robot-collaboration.jpg` | `30374729D79C9EF95EF15A001E349416.jpg` |
+| `public/images/team/electronics-detail.jpg` | `3963A2F29FB8B7549F5D457F7B6D05DC.jpg` |
+| `public/images/team/robot-preparation.jpg` | `465A72DD6BE0A129576031530640F3FF.jpg` |
+| `public/images/team/robot-workbench.jpg` | `540C9BA9190965D9DEB7A4EE3F3CDAA0.jpg` |
+| `public/images/team/team-cheer.jpg` | `6BF32788D69D31512D26A98B997E904D.jpg` |
+| `public/images/team/arena-testing.jpg` | `88A66D6A9A7B0601EA723507F2B99312.jpg` |
+| `public/images/team/team-moment.jpg` | `D662CBA7A4570845BB9AE2B4812EA627.jpg` |
+| `public/images/team/robot-pit.jpg` | `DFAD09C94FAA47CF965A4A33EF20DB99.jpg` |

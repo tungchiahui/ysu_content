@@ -2,38 +2,38 @@
   "autoplayMs": 6500,
   "slides": [
     {
-      "kicker": "2026 · National First Prize",
-      "title": "国赛一等奖，属于每一个并肩作战的人",
-      "highlight": "国赛一等奖",
-      "summary": "Vinci 机器人队在 2026 Robocon 排球赛中获得国赛一等奖，以赛场表现写下新的团队高光。",
-      "image": "/images/news/2026-robocon-volleyball/competition.jpg",
-      "imageAlt": "Vinci 机器人队参加 2026 Robocon 排球赛",
-      "href": "/news/2026-07-16-robocon-volleyball-national-first-prize",
-      "cta": "阅读比赛新闻",
+      "kicker": "YSU · RoboMaster",
+      "title": "把热爱带上赛场，在协作中突破",
+      "highlight": "热爱",
+      "summary": "从赛前调试到赛场协作，在真实对抗中检验每一次设计。",
+      "image": "/images/team/robot-pit.jpg",
+      "imageAlt": "燕鹰战队队员协作检查机器人",
+      "href": "/research",
+      "cta": "了解赛事与实践",
       "tone": "victory",
-      "position": "center 56%"
+      "position": "center 54%"
     },
     {
       "kicker": "Recruitment · 2026",
       "title": "把你的热爱，装进下一台机器人",
       "summary": "机械、电控、算法、运营多方向开放加入。和一群认真做事的人，从第一次训练走到真实赛场。",
-      "image": "/images/joinus.jpg",
-      "imageAlt": "Vinci 机器人队纳新活动合影",
+      "image": "/images/team/robot-preparation.jpg",
+      "imageAlt": "燕鹰战队队员在赛前调试机器人",
       "href": "/recruitment",
       "cta": "查看纳新指南",
       "tone": "recruitment",
       "position": "center 48%"
     },
     {
-      "kicker": "People of Vinci",
+      "kicker": "People of YSU",
       "title": "每一代成员，都在为下一程积蓄力量",
-      "summary": "认识机械、电路、控制、算法与运营方向的伙伴，查看 Vinci 历届成员与团队传承。",
-      "image": "/images/background_footer.png",
-      "imageAlt": "Vinci 机器人队团队成员合影",
+      "summary": "机械、电控、算法与运营方向的伙伴，在一台机器人上汇聚各自的力量。",
+      "image": "/images/team/team-cheer.jpg",
+      "imageAlt": "燕鹰战队成员在赛场加油",
       "href": "/team",
       "cta": "认识团队成员",
       "tone": "team",
-      "position": "center 48%"
+      "position": "center 35%"
     }
   ]
 }

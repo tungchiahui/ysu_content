@@ -13,14 +13,16 @@ data/site.json         战队身份、简介、联系方式、招新链接、首
 data/achievements.json 赛事成绩
 data/home-promos.json  首页宣传轮播
 member-submission-kit/ 成员资料填写说明、模板和示例
-sources.md             燕鹰简介和临时队标的来源
+sources.md             简介、队标与视频的来源
 ```
 
 ## 当前保留的模板
 
-成员、Wiki、新闻等 260 份 Markdown 原文全部保留，没有批量替换其中的战队名称、作者或事实。原有成绩、宣传轮播、媒体和招新联系方式也保留作模板。这些资料来源于原 SDUT Vinci 网站，不代表燕鹰成员、成绩或招新安排。
+初始迁移时，原 SDUT Vinci 网站的成员、Wiki、新闻等 260 份 Markdown 原文全部保留。成员、新闻、成绩和招新联系方式继续作为模板。首页轮播及栏目配图已按燕鹰主题更新，照片来自用户指定的 TTT 文件夹。
 
-`data/site.json` 中的 `templateMode` 控制网站资料迁移说明。完成所有正式内容替换后再关闭。
+Wiki 现按用户指定的本地 `tungchiahui_content/content/wiki/` 工作目录整体更新为 292 篇。旧目录独有的文档已删除，Wiki 目录与指定来源完整一致，不做增量合并。来源工作目录中的未提交修改也按实际文件同步，未改动来源仓库。
+
+`data/site.json` 的 `templateMode` 控制成果与新闻页面的模板标识。网站已移除顶部资料迁移提示和首页来源链接；引用来源继续记录于 `sources.md`。
 
 ## 维护方式
 

@@ -49,6 +49,7 @@ https://www.runoob.com/docker/docker-tutorial.html
 | -e NVIDIA_DRIVER_CAPABILITIES=all | 启用NVIDIA驱动的全部功能（如CUDA、图形渲染） | 确保容器内GPU功能完整67。 |
 | -dit | 组合参数：- -d：后台运行容器（Detached模式）- -i：保持标准输入（STDIN）开放- -t：分配伪终端（TTY） | 允许容器在后台运行并支持交互操作。 |
 | --privileged | 赋予容器完全主机权限（可访问设备、内核模块等） | 用于需要直接操作硬件的场景（如访问USB设备），但存在安全风险。 |
+| -v /dev:/dev \ | 映射宿主机的/dev目录 | 用于需要直接操作硬件的场景（如访问USB设备），这样可以热插拔，容器会直接看到宿主机生成的设备别名，但存在安全风险。 |
 | --net=host | 共享宿主机网络命名空间（容器使用宿主机IP和端口） | 简化网络配置，无NAT，这样的话，网络效率更高，局域网设备更容易发现。 |
 | --group-add audio--group-add video--group-add dialout | 将容器用户加入宿主机用户组：- audio：音频设备访问- video：视频设备访问- dialout：串口设备访问 | 避免权限问题（如避免无法调用摄像头、麦克风）。 |
 | -e DISPLAY=$DISPLAY-e XAUTHORITY=/home/tungchiahui/.Xauthority-e WAYLAND_DISPLAY-e XDG_RUNTIME_DIR-e QT_QPA_PLATFORM=xcb | 配置图形显示环境：- 绑定宿主机显示接口（X11或Wayland）- 设置GUI应用渲染后端 | 支持容器内运行图形界面应用（如OpenCV可视化）。 |
@@ -59,6 +60,9 @@ https://www.runoob.com/docker/docker-tutorial.html
 | -v /home/tungchiahui:/home/tungchiahui | 挂载宿主机用户目录到容器内同名路径 | 实现宿主机与容器间文件共享（如代码、数据持久化）。 |
 | -w /home/tungchiahui | 设置容器启动后的默认工作目录 | 直接进入项目路径，方便执行命令2324。 |
 | tungchiahui/ros-opencv:jazzy-411-cuda128-cudnn971-noble | 镜像名称指定镜像及标签，包含：- ROS 2 Jazzy- OpenCV 4.11- CUDA 12.8- cuDNN 9.7.1 | 提供预配置的深度学习与机器人开发环境。 |
+
+
+**我已经写好了一个非常完备的运行命令了,你直接用我的就可以.**
 
 下方这条命令一定要在普通用户下运行，不要在root用户下运行，其实加不加`sudo`加不加`sudo -E`都无所谓。
 
@@ -80,7 +84,7 @@ sudo docker run --name=ros_opencv_cuda \
 -e XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR \
 -e QT_QPA_PLATFORM=xcb \
 -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
--v /dev/dri:/dev/dri \
+-v /dev:/dev \
 -v $HOME/.Xauthority:$HOME/.Xauthority:ro \
 -v /run/user/$(id -u)/wayland-0:/run/user/$(id -u)/wayland-0 \
 -v /run/user/$(id -u):/run/user/$(id -u) \
@@ -89,7 +93,7 @@ sudo docker run --name=ros_opencv_cuda \
 tungchiahui/ros-opencv:humble-411-cuda128-cudnn970-jammy
 ```
 
-注意：
+**你需要自己手动修改的内容：**
 
 1.  `NVIDIA_DRIVER_CAPABILITIES=all` `--gpus all`没有英伟达显卡请注释。
 
@@ -97,16 +101,43 @@ tungchiahui/ros-opencv:humble-411-cuda128-cudnn970-jammy
 
 3.  最后一行仓库名称请你自己找对应的镜像填上。
 
-4.  ROS1在Fedora发行版下会爆内存，需要添加上下面这个参数，如果你不是Fedora和ROS1,***请不要加***。
+4.  ROS1在Fedora发行版下会爆内存，需要添加上下面这个参数，如果你不是Fedora和ROS1,**请不要加**。(现在其实也很少用ROS1了,ROS1已经逐步淘汰了)
 
 ```bash
 --ulimit nofile=1024:524288 \
 ```
 
-5.  如果想用当前用户登陆容器,可以加上下面这几条,但非常非常***不建议*****.**
+5.  如果想用当前用户登陆容器,可以加上下面这几条,但非常非常**不建议**.
 
 ```bash
 --user $(id -u):$(id -g) \
 -v /etc/passwd:/etc/passwd:ro \
 -v /etc/group:/etc/group:ro \
 ```
+
+
+#### save与load
+
+> 众所周知，因为不可抗因素，dockerhub已于2024年5月被🇨🇳封杀，所以咱们无法直接拉取镜像。
+
+有一种本地的办法，就是把镜像打成压缩包，再扔到另一台电脑上去让docker读取。
+
+打包：
+
+```bash
+docker save -o myimage.tar myimage
+```
+
+读取：
+
+```bash
+docker load -i myimage.tar
+```
+
+
+#### 第三方的dockerhub库（并不是dockerhub mirror库）
+
+可以把自己镜像上传到国内一些镜像库（images hub，不是mirror）里。
+
+##### 腾讯的TCR
+

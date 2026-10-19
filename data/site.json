@@ -71,8 +71,8 @@
         "从机械设计、嵌入式控制到视觉算法与运营协作，在团队项目中积累工程经验。",
         "围绕真实赛事任务开展学习，让想法逐步成为能运行的机器人。"
       ],
-      "image": "/images/joinus.jpg",
-      "imageAlt": "原站招新展示模板配图",
+      "image": "/images/team/robot-preparation.jpg",
+      "imageAlt": "燕鹰战队队员在赛前协作调试机器人",
       "href": "/recruitment",
       "cta": "了解纳新"
     },
@@ -83,8 +83,8 @@
         "燕山大学机器人创新团队（燕鹰战队）参与 RoboMaster 等机器人赛事。",
         "通过设计、加工、装配与调试，将课堂知识运用到机器人开发。"
       ],
-      "image": "/images/cheer.png",
-      "imageAlt": "原站比赛展示模板配图",
+      "image": "/images/team/arena-testing.jpg",
+      "imageAlt": "燕鹰战队在赛场测试机器人",
       "href": "/research",
       "cta": "查看成果模板"
     },
@@ -93,10 +93,10 @@
       "title": "记录学习路径，积累工程经验",
       "text": [
         "汇集机器人开发教程、环境搭建与工具使用笔记。",
-        "现有教程保留原文，作为后续整理燕鹰知识库的参考。"
+        "围绕机械、电控、算法和工程工具，记录从基础学习到项目实践的完整路径。"
       ],
-      "image": "/images/cooporate.jpg",
-      "imageAlt": "原站知识库展示模板配图",
+      "image": "/images/team/electronics-detail.jpg",
+      "imageAlt": "燕鹰战队队员检查机器人电路与结构",
       "href": "/wiki",
       "cta": "进入 Wiki"
     },
@@ -107,8 +107,8 @@
         "从方案设计到实物制作，在项目中学习分工与协作。",
         "将开发过程中的问题、调试经验与阶段性成果逐步整理下来。"
       ],
-      "image": "/images/projects.jpg",
-      "imageAlt": "原站项目展示模板配图",
+      "image": "/images/team/robot-workbench.jpg",
+      "imageAlt": "燕鹰战队队员在工作区调试机器人",
       "href": "/projects",
       "cta": "查看项目"
     },
@@ -119,8 +119,8 @@
         "成员页面支持按赛季与职责浏览资料。",
         "当前保留原站成员档案作为模板，燕鹰成员资料后续更新。"
       ],
-      "image": "/images/background_footer.png",
-      "imageAlt": "原站成员展示模板配图",
+      "image": "/images/team/team-cheer.jpg",
+      "imageAlt": "燕鹰战队队员在赛场加油",
       "href": "/team",
       "cta": "查看成员模板"
     },
@@ -131,8 +131,8 @@
         "在实践中交流，在协作中成长。",
         "当前新闻原文保留为模板，后续逐步补充燕鹰动态。"
       ],
-      "image": "/images/news.png",
-      "imageAlt": "原站新闻展示模板配图",
+      "image": "/images/team/team-moment.jpg",
+      "imageAlt": "燕鹰战队成员在赛事现场的团队瞬间",
       "href": "/news",
       "cta": "查看新闻模板"
     }
