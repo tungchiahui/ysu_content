@@ -38,3 +38,9 @@
 
 - 2026-10-19 根据 RoboMaster 官方公告与官方论坛核实获奖名单，替换原站 Robocon 成绩模板；首次参赛年份以燕山大学官方报道为依据。
 - 成果数据：`data/achievements.json`。每项均保留官方来源链接；完整收录口径、暂缺年份和逐年依据见 [RoboMaster 成果来源](docs/RoboMaster成果来源.md)。
+
+## 燕鹰视觉标题字体
+
+- 2026-10-20 新增本地标题字体 `public/fonts/noto-serif-sc-ui-700.woff2`，来源为 [Google Fonts 的 Noto Serif SC](https://fonts.google.com/noto/specimen/Noto+Serif+SC)，字重 700。
+- 通过 Google Fonts 的 `text` 子集接口获取，包含当时网站 Vue 界面及 `data/site.json` 中的 461 个汉字字形，文件约 87 KiB。正文、文章标题和成员姓名标题使用系统字体，新增界面字形可更新子集或使用系统字体回退。
+- 使用 SIL Open Font License 1.1；[上游许可](https://github.com/notofonts/noto-cjk/blob/main/Serif/LICENSE)随文件保存为 `public/fonts/OFL-NotoSerifSC.txt`。网站从同域提供字体，无需访客连接 Google 字体服务。

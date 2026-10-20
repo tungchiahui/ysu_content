@@ -24,6 +24,10 @@ Wiki 最初按用户指定的本地 `tungchiahui_content/content/wiki/` 工作�
 
 `data/site.json` 的 `templateMode` 控制新闻页面的模板标识，成果页独立展示已核实记录。网站已移除顶部资料迁移提示和首页来源链接；引用来源继续记录于 `sources.md`。
 
+## 视觉资源
+
+网站新版使用本地标题字体 `public/fonts/noto-serif-sc-ui-700.woff2`，同目录附 SIL OFL 许可。该字体为静态界面标题的汉字子集，来源与维护范围见 `sources.md`；正文和动态文章、姓名标题使用系统字体。
+
 ## 维护方式
 
 - 学生与指导老师均不填写学校字段 `university`，学院字段保留；页面赛季值显示 `2027`，顶部筛选显示 `27赛季`，资料中仍填写四位整数。
