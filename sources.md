@@ -2,7 +2,7 @@
 
 - 用户确认名称：燕山大学机器人创新团队燕鹰战队，归属机械工程学院。
 - 简介根据[燕山大学第五届 RoboMaster 校内选拔赛通知](https://notice.ysu.edu.cn/info/2264/23979.htm)归纳，涵盖赛事、机械、电控、算法、硬件与运营方向。简介没有推断建队年份、人数或燕鹰获奖记录；后续核实的成果见下述专节。
-- 临时队标：用户指定的[战队微博](https://weibo.com/u/5743556072)头像，获取日期 2026-10-19，原图 180×180，保存为 `public/images/ysu-avatar.jpg`，未重绘。
+- 当前队标：2026-10-20 根据用户提供的[高清图片链接](https://pics0.baidu.com/feed/a8773912b31bb051f28ced7e29d0aca44bede072.jpeg@f_auto?token=7daaab8013a1d17eaccd1d0cd3d69794)下载，JPEG 原图 1080×626，保存为 `public/images/ysu-logo-hd.jpg`，原样使用，不裁剪或重绘。
 - 初始迁移保留原站成员、Wiki、新闻、成绩、宣传轮播、机器人照片及招新联系方式作为模板。Wiki 后续按下述来源整体更新。
 
 ## 抖音主页
