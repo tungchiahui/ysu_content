@@ -1,29 +1,37 @@
-name: Notify website
+name: Deploy website on EO Pages
 
 on:
   push:
     branches: [main]
-    paths-ignore:
-      - README.md
-      - sources.md
-      - .github/**
   workflow_dispatch:
 
-permissions:
-  contents: read
+permissions: {}
 
 jobs:
   notify:
     runs-on: ubuntu-latest
+    timeout-minutes: 3
     env:
-      GH_TOKEN: ${{ secrets.WEBSITE_DISPATCH_TOKEN }}
-      WEBSITE_REPOSITORY: ${{ vars.WEBSITE_REPOSITORY || 'tungchiahui/ysu_web' }}
-      WEBSITE_REF: ${{ vars.WEBSITE_REF || 'main' }}
-      CONTENT_SHA: ${{ github.sha }}
+      EO_DEPLOY_HOOK_URL: ${{ secrets.EO_DEPLOY_HOOK_URL }}
     steps:
-      - name: Trigger website build
-        if: env.GH_TOKEN != ''
-        run: gh workflow run build.yml --repo "$WEBSITE_REPOSITORY" --ref "$WEBSITE_REF" --field "content_ref=$CONTENT_SHA"
-      - name: Explain optional setup
-        if: env.GH_TOKEN == ''
-        run: echo 'Set WEBSITE_DISPATCH_TOKEN after the website migration is merged to enable automatic builds.' >> "$GITHUB_STEP_SUMMARY"
+      - name: Trigger EO Pages deployment
+        shell: bash
+        run: |
+          if [[ -z "$EO_DEPLOY_HOOK_URL" ]]; then
+            echo '::error::请在本仓库的 Actions Secrets 中配置 EO_DEPLOY_HOOK_URL。'
+            exit 1
+          fi
+
+          if ! status="$(curl --silent --output /dev/null --write-out '%{http_code}' \
+            --request POST --proto '=https' --connect-timeout 10 --max-time 60 \
+            "$EO_DEPLOY_HOOK_URL")"; then
+            echo '::error::无法连接 EO 部署钩子，请检查钩子地址和网络后重新运行。'
+            exit 1
+          fi
+
+          if [[ "$status" != 2?? ]]; then
+            echo "::error::EO 部署钩子返回 HTTP $status，请检查钩子是否有效。"
+            exit 1
+          fi
+
+          echo 'EO 已接受部署请求；实际构建及发布结果请在 EO Pages 控制台查看。' >> "$GITHUB_STEP_SUMMARY"

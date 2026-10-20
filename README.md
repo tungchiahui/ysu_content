@@ -43,13 +43,19 @@ Wiki 最初按用户指定的本地 `tungchiahui_content/content/wiki/` 工作�
 
 本地预览时，把网站仓库 `.env` 中的 `CONTENT_LOCAL_PATH` 指向本仓库，然后在网站目录运行 `npm run dev`。内容修改后执行 `npm run content:sync`。
 
-## 内容更新如何触发构建
+## 内容更新如何触发 EO 部署
 
-提交本仓库不会自动修改已经生成的网站。可在网站仓库手动运行 Build 工作流；工作流中的 `content_ref` 可填本仓库的完整提交 SHA。
+本仓库每次 push 到 `main`，都会运行 `.github/workflows/notify-website.yml`，通过 HTTP POST 调用 EO Pages 部署钩子。没有路径过滤，修改文档或工作流也会触发；也可在 Actions 页面手动运行。构建和发布全部由 EO 完成，GitHub Actions 只发送部署请求。
 
-本仓库也提供可选的自动触发工作流 `notify-website.yml`。网站分仓改造合并到默认分支后，在本仓库设置 Secret `WEBSITE_DISPATCH_TOKEN`，使用仅对网站仓库具有 Actions 写入权限的 token。后续内容提交会触发网站 Build，并传入当前内容 SHA。未设置该 Secret 时工作流正常跳过触发，不影响提交。
+一次性配置：
 
-可选变量 `WEBSITE_REPOSITORY` 默认 `tungchiahui/ysu_web`，`WEBSITE_REF` 默认 `main`；网站迁移后可调整它们。该工作流只发起构建，不负责线上部署。
+1. 在 EO 的现有网站项目中新建部署钩子，目标分支选择网站仓库的 `main`。
+2. 在本仓库 Settings → Secrets and variables → Actions 新建 Repository Secret `EO_DEPLOY_HOOK_URL`，值为完整钩子地址。地址不写入源码。
+3. EO 的 Git 集成继续关联 `tungchiahui/ysu_web` 的 `main`；内容源保持 `main`，不要把 `CONTENT_REF` 固定为旧提交，也不要设置本地开发用的 `CONTENT_LOCAL_PATH`。
+
+这样，push 网站仓库由 EO 的 Git 集成触发，push 内容仓库由部署钩子触发；EO 每次构建都会拉取最新内容。不再需要 `WEBSITE_DISPATCH_TOKEN`、`WEBSITE_REPOSITORY` 或 `WEBSITE_REF`。
+
+缺少 Secret、网络错误或非 2xx 响应会让工作流失败，避免静默跳过。工作流成功仅表示 EO 接受请求，实际构建及发布结果以 EO 控制台为准。网站仓库的 Build 工作流仍可用于单独验证构建，不负责线上部署。
 
 ## Public 与 Private
 
