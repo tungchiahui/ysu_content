@@ -19,6 +19,12 @@
 - 2026-10-19 按用户指定的 `/home/tungchiahui/UserFolder/MySource/tungchiahui_content/content/wiki/` 当前工作文件同步，292 篇原文逐文件比对一致，包括来源工作目录中的未提交修改。
 - 按用户要求删除旧目录独有的文档，不保留旧文档归档。
 
+## 指导老师资料与头像
+
+- 2026-10-20 按用户指定，将指导老师替换为韩博；删除原站三位指导老师档案及无其他引用的三张头像。
+- 姓名、学院、部门、职称、导师资格、个人简介和研究方向依据[燕山大学教师个人主页](https://web.ysu.edu.cn/HB2/zh_CN/index.htm)及用户提供的[英文主页](https://web.ysu.edu.cn/HB2/en/index/151786/list/index.htm)。仅整理公开履历，不推断指导赛季，不收录页面加密的联系方式。
+- 头像 `public/images/member_photo/韩博.png` 来自该教师主页实际加载的[原图](https://web.ysu.edu.cn/__local/7/0D/D4/380ED2FCBB02704796BDF760DEB_5FF22B6D_17D48.png)，原样保存，不裁剪或重绘。
+
 ## 战队照片
 
 2026-10-19 从用户提供的 `/home/tungchiahui/Downloads/TTT/` 选择 8 张原图，用于首页栏目、轮播、各栏目横幅及招新/联系配图。原图直接复制，未裁剪、重绘或移除水印。原有新闻正文配图与成员头像保持对应资料的内容。
