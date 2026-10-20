@@ -5,6 +5,12 @@
 - 临时队标：用户指定的[战队微博](https://weibo.com/u/5743556072)头像，获取日期 2026-10-19，原图 180×180，保存为 `public/images/ysu-avatar.jpg`，未重绘。
 - 初始迁移保留原站成员、Wiki、新闻、成绩、宣传轮播、机器人照片及招新联系方式作为模板。Wiki 后续按下述来源整体更新。
 
+## 抖音主页
+
+- 2026-10-20 根据用户提供的[抖音分享链接](https://v.douyin.com/Y9D5_2gyXho/)解析重定向，目标为 `www.iesdouyin.com/share/user/` 下的用户主页，路径与 `sec_uid` 参数一致。
+- 提取到的主页标识为 `MS4wLjABAAAAazKtqGDshsbQ4lf14nSCXIO1gNLiUnUhCZDFsFbKsKaa2igbMXuEaYOqeHFUxGRY`；在 `data/site.json` 的社交链接中保存为 `https://www.douyin.com/user/<sec_uid>`，不依赖昵称或可修改的抖音号，不携带分享追踪参数。
+- 首页、页脚和联系页共同读取社交链接配置。未从公开页面取得可独立核验的数字 UID 或抖音号，不将分享参数里的其他用户编号作为账号标识，也不承诺平台标识永远不会变更。
+
 ## RoboMaster 首页背景视频
 
 - 来源页面：[RoboMaster 中文官网](https://www.robomaster.com/zh-CN)，获取日期 2026-10-19。
