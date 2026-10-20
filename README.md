@@ -18,11 +18,11 @@ sources.md             简介、队标与视频的来源
 
 ## 当前保留的模板
 
-初始迁移时，原 SDUT Vinci 网站的成员、Wiki、新闻等 260 份 Markdown 原文全部保留。新闻继续作为模板，成果页展示简洁的 RoboMaster 历年获奖记录，出处保留在仓库供维护；招新群、报名表及邮箱、微信、地址已按燕鹰战队资料更新。成员档案现仅保留董佳辉及原站三位指导老师，使用新的按赛季任职格式，详见 `docs/成员资料规范.md`。首页轮播及栏目配图已按燕鹰主题更新，照片来自用户指定的 TTT 文件夹。
+初始迁移时，原 SDUT Vinci 网站的成员、Wiki、新闻等 260 份 Markdown 原文全部保留。新闻已替换为 5 篇燕鹰战队新闻与公告，成果页展示简洁的 RoboMaster 历年获奖记录，出处保留在仓库供维护；招新群、报名表及邮箱、微信、地址已按燕鹰战队资料更新。成员档案现仅保留董佳辉及原站三位指导老师，使用新的按赛季任职格式，详见 `docs/成员资料规范.md`。首页轮播及栏目配图已按燕鹰主题更新，照片来自用户指定的 TTT 文件夹。
 
 Wiki 最初按用户指定的本地 `tungchiahui_content/content/wiki/` 工作目录整体更新为 292 篇。此后按要求删除 OpenCV、Flutter、Nuxt.js、OpenWrt、ROS1 五套独立教程及其首页、章节，当前保留 271 篇。旧目录独有的文档已删除，不保留归档；未改动最初的来源仓库。
 
-`data/site.json` 的 `templateMode` 控制新闻页面的模板标识，成果页独立展示已核实记录。网站已移除顶部资料迁移提示和首页来源链接；引用来源继续记录于 `sources.md`。
+新闻、成果页均展示燕鹰战队资料，原站两篇新闻模板及其排球赛配图已删除。网站已移除顶部资料迁移提示和首页来源链接；引用来源继续记录于 `sources.md`。
 
 ## 视觉资源
 
@@ -32,7 +32,7 @@ Wiki 最初按用户指定的本地 `tungchiahui_content/content/wiki/` 工作�
 
 - 学生与指导老师均不填写学校字段 `university`，学院字段保留；页面赛季值显示 `2027`，顶部筛选显示 `27赛季`，资料中仍填写四位整数。
 - 新成员与指导老师：参考 [Markdown 填写说明书](member-submission-kit/说明书.md) 和 `docs/成员资料规范.md`，添加 Markdown 与对应头像；学生只使用机械组、电控组、硬件组、算法组，无梯队字段。
-- 新新闻：在 `content/news/` 添加 Markdown，图片放在 `public/images/news/`。
+- 新新闻：在 `content/news/` 添加 `YYYY-MM-DD-短标题.md`，frontmatter 仅写 `title`、`authors`；日期、封面和摘要自动提取，详见 [新闻资料规范](docs/新闻资料规范.md)。图片放在 `public/images/news/`。
 - Wiki：frontmatter 使用 `title` 和 `authors`，详见 `docs/Wiki资料规范.md`。保留现有文件名编号规则，章节使用四位数字开头；更改路径时同步维护站内链接。
 - 配图：写 `/images/文件名`，网站会在构建时同步 `public/` 中的资源。
 - 联系方式、招新链接与首页介绍：编辑 `data/site.json`，无需修改页面代码。

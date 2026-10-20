@@ -46,3 +46,20 @@
 - 使用 SIL Open Font License 1.1；[上游许可](https://github.com/notofonts/noto-cjk/blob/main/Serif/LICENSE)随文件保存为 `public/fonts/OFL-NotoSerifSC.txt`。网站从同域提供字体，无需访客连接 Google 字体服务。
 
 - 2026-10-20 按用户反馈恢复原有布局与系统无衬线字体，以上字体不再由页面加载，文件与许可保留为历史资源。成果页同时取消来源、核实说明和早期队名的页面展示，原始出处继续在本仓库保存。
+
+## 燕鹰新闻与公告
+
+2026-10-20 删除两篇山东理工大学 Vinci 新闻模板及其独占排球赛图片，以以下原文为依据做简短整理，保留原文链接，不把历史比赛报名写成当前招新。正文未凭空补充采访、比赛过程或获奖情况。
+
+| 新闻文件日期 | 依据 | 署名处理 |
+| --- | --- | --- |
+| 2019-08-28 | [燕山大学 RoboMaster 2019 获奖报道](https://www.ysu.edu.cn/info/5415/13631.htm) | 原文明确署名“机械工程学院 陈子明”，填写 `authors: [陈子明]`；不将编辑褚玉晶列为作者 |
+| 2024-02-28 | [第三届燕鹰机器人对抗赛通知](https://notice.ysu.edu.cn/info/2264/17807.htm) | 未明确个人作者，留空 |
+| 2024-08-26 | [RoboMaster 2024 机器人竞技奖名单](https://www.robomaster.com/zh-CN/resource/pages/announcement/1761) | 未明确个人作者，留空 |
+| 2025-11-14 | [第五届 RoboMaster 校内选拔赛通知](https://notice.ysu.edu.cn/info/2264/23979.htm) | 原文页面发布日期为 11 月 14 日、通知落款为 11 月 13 日；按页面发布日期命名，个人作者留空 |
+| 2026-04-14 | [RoboMaster 2026 高校联盟赛名单](https://www.robomaster.com/zh-CN/resource/pages/announcement/1913) | 未明确个人作者，留空；仅记录山东站 3V3 对抗赛二等奖 |
+
+2019 年新闻的两张配图直接下载自学校原报道，保留原图，不裁剪、不重绘。原文说明图片由机械工程学院提供，正文已注明图片来源：
+
+- `public/images/news/2019-robomaster/team.jpg`：[合影原图](https://www.ysu.edu.cn/__local/B/D1/F8/4ED16B4F3E417253E3345AC3C59_346B0402_44EEE.jpg)，600×400。
+- `public/images/news/2019-robomaster/engineer-results.jpg`：[获奖名单原图](https://www.ysu.edu.cn/__local/4/B1/11/769FA70B83514B085B42FB85F28_DB1E19E1_245EC.jpg)，600×644。

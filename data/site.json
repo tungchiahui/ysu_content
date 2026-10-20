@@ -10,7 +10,7 @@
   "description": "燕山大学机器人创新团队（燕鹰战队）依托机械工程学院，围绕全国大学生机器人大赛 RoboMaster 等赛事开展机器人设计、制作与调试，在机械、电控、硬件、算法及运营协作中培养创新意识与工程实践能力。",
   "logo": "/images/ysu-avatar.jpg",
   "logoAlt": "燕山大学机器人创新团队 YSU 标志（微博头像）",
-  "templateMode": true,
+  "templateMode": false,
   "introSources": [
     {
       "title": "燕山大学第五届 RoboMaster 校内选拔赛通知",
@@ -128,12 +128,12 @@
       "title": "记录训练、赛事和团队活动",
       "text": [
         "在实践中交流，在协作中成长。",
-        "当前新闻原文保留为模板，后续逐步补充燕鹰动态。"
+        "关注燕鹰战队的参赛、校内选拔与工程实践记录。"
       ],
       "image": "/images/team/team-moment.jpg",
       "imageAlt": "燕鹰战队成员在赛事现场的团队瞬间",
       "href": "/news",
-      "cta": "查看新闻模板"
+      "cta": "查看新闻"
     }
   ],
   "copyrightYear": 2026,
