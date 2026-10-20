@@ -31,6 +31,7 @@ Wiki 最初按用户指定的本地 `tungchiahui_content/content/wiki/` 工作�
 ## 维护方式
 
 - 学生与指导老师均不填写学校字段 `university`，学院字段保留；页面赛季值显示 `2027`，顶部筛选显示 `27赛季`，资料中仍填写四位整数。
+- 学生与指导老师都必须填写 `seasons`，当前模板和资料只维护 `year: 2027`；韩博老师也已填写 2027，老师不再使用空赛季。
 - 新成员与指导老师：参考 [Markdown 填写说明书](member-submission-kit/说明书.md) 和 `docs/成员资料规范.md`，添加 Markdown 与对应头像；学生使用机械组、电控组、硬件组、算法组、运营组，无梯队字段。
 - 新新闻：在 `content/news/` 添加 `YYYY-MM-DD-短标题.md`，frontmatter 仅写 `title`、`authors`；日期、封面和摘要自动提取，详见 [新闻资料规范](docs/新闻资料规范.md)。图片放在 `public/images/news/`。
 - Wiki：frontmatter 使用 `title` 和 `authors`，详见 `docs/Wiki资料规范.md`。保留现有文件名编号规则，章节使用四位数字开头；更改路径时同步维护站内链接。
