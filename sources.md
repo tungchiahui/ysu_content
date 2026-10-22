@@ -5,6 +5,10 @@
 - 当前队标：2026-10-20 根据用户提供的[高清图片链接](https://pics0.baidu.com/feed/a8773912b31bb051f28ced7e29d0aca44bede072.jpeg@f_auto?token=7daaab8013a1d17eaccd1d0cd3d69794)下载，JPEG 原图 1080×626 保存在 `public/images/ysu-logo-hd.jpg`；按用户要求由原图等比缩小、居中补白，制作 `public/images/ysu-logo-800.jpg`（800×800）供网站使用，保留完整图形与文字，不裁剪、拉伸或重绘。
 - 初始迁移保留原站成员、Wiki、新闻、成绩、宣传轮播、机器人照片及招新联系方式作为模板。Wiki 后续按下述来源整体更新。
 
+## 赛事标志
+
+- 2026-10-22：赛事倒计时使用 RoboMaster 官方[更名公告](https://www.robomaster.com/en-US/resource/pages/announcement/713)提供的[蓝色标志原图](https://rm-static.djicdn.com/robomasters/public/document/RoboMaster-mecha-logo-blue.png)，保存为 `public/images/competitions/robomaster.png`（1021×663），保留原始文件，不重绘、裁剪或变色。网站在浅色小底板上等比显示，来源仅记录于仓库，不额外添加页面说明文字。
+
 ## 抖音主页
 
 - 2026-10-20 根据用户提供的[抖音分享链接](https://v.douyin.com/Y9D5_2gyXho/)解析重定向，目标为 `www.iesdouyin.com/share/user/` 下的用户主页，路径与 `sec_uid` 参数一致。
