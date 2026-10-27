@@ -26,6 +26,9 @@
 
 ## Wiki 更新来源
 
+- 2026-10-27：从本地 `tungchiahui_content/content/wiki/` 同步（来源提交 `55ffbcb1b2b3978b5084e6875552f9f25599e9fc`），更新 28 篇现有教程，新增 69 篇章节，移除被新版替代的 2 篇旧路径文章，合计 338 篇，全部显式署名董佳辉。
+- 本次沿用 YSU 此前删去 OpenCV、Flutter、Nuxt.js、OpenWrt、ROS1 五套独立教程的范围，保留相关失效链接清理、外部 ROS2 资料完整网址、占位图片清理及旧教程提示去重；未修改来源仓库。
+
 - 2026-10-19 按用户指定的 `/home/tungchiahui/UserFolder/MySource/tungchiahui_content/content/wiki/` 当前工作文件同步，292 篇原文逐文件比对一致，包括来源工作目录中的未提交修改。
 - 按用户要求删除旧目录独有的文档，不保留旧文档归档。
 
